@@ -6,34 +6,6 @@ var reverseCollatz = function (r, max) {
       results = [],
       index = [];
 
-
-
-    // results[3] = 5;
-    // results[5] = 1;
-    // results[21] = 1;
-    // results[7] = 11;
-    // results[13] = 5;
-    // results[17] = 13;
-    // results[11] = 17;
-    // results[45] = 17;
-
-
-    // results[33] = 25;
-    // results[25] = 19;
-    // results[19] = 29;
-    // results[29] = 11;
-
-    // results[49] = 37;
-    // results[37] = 7;
-    // results[9]  = 7;
-    // results[45] = 17;
-
-    // results[43] = 65;
-
-
-
-
-
     // for (var c=1; c<max; c++) 
     // {
     //   var newlevel = [];
@@ -73,8 +45,6 @@ var reverseCollatz = function (r, max) {
      // console.log(results);
 
     }
-
-    //const max = 21;
 
     for (i = 3; i <= 300; i += 2) syrac(i);
 
