@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Syracuse Animation</title>
+
+    <link rel="stylesheet" href="collatz.css">
+    <link rel="stylesheet" href="media/ui-lightness/jquery-ui-1.8rc3.custom.css">
+    <script src="media/js/d3.min.js"></script>
+    <script src="media/js/d3.layout.min.js"></script>
+    <script src="media/js/underscore-min.js"></script>
+    <script src="media/js/jquery.min.js"></script>
+    <script src="media/js/jquery-ui-1.8rc3.custom.min.js"></script>
+
+  </head>
+  <body>
+    <h1>Collatz Graph: All Numbers Lead to One</h1>
+    <p>Here is a graph showing the orbits of all numbers under the Collatz map
+    <p><label for="level">Orbit length</label>: <span id="level"></span> <span id="level-val">1</span>
+    <p><input type="button" value="Play" id="play">
+    <p><input type="button" value="Stop" id="stop" style="display: none">
+    
+    <div id="vis">
+      <script src="collatz.js"></script>
+      <script src="collatz-ui.js"></script>
+    </div>
+
+  </body>
+</html>
+
